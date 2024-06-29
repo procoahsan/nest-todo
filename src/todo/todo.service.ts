@@ -14,6 +14,10 @@ export class TodoService {
 
   async create(createTodoDto: CreateTodoDto): Promise<todoDoc> {
     const newTodo = new this.model(createTodoDto);
+    console.log("ahsan")
+    console.log("ahsan")
+    console.log("ahsan")
+    console.log("ahsan")
     return newTodo.save();
   }
 
